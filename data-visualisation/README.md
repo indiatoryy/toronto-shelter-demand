@@ -24,3 +24,4 @@ In the Data_Visualization.ipynb notebook, we aim to better understand the relati
 
 <img width="1439" alt="Screenshot 2024-04-09 at 3 55 17 PM" src="https://github.com/Tomasdfgh/RBCs_Borealis_AIs_Shelter_Occupancy_Forecast/assets/105636722/d7b40894-3cba-4d75-b0cf-c1ce45ba71a0">
 
+<img width="637" alt="Screenshot 2024-04-20 at 12 12 29 PM" src="https://github.com/indiatoryy/toronto-shelter-demand/assets/105636722/aabfca3c-1ae6-47b3-8827-d2fb7c7b4f62">

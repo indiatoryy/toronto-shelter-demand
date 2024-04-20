@@ -4,7 +4,7 @@ Note: as of April 20th, this project is in active development and is being updat
 
 Let's Solve It (2024)
 
-Project by Nida Copty, Tom Nguyen, and India Tory
+Project by Nida, Tom, India, and Emily
 
 ## Problem Statement
 
@@ -19,3 +19,20 @@ By enhancing forecasting and resource allocation for homeless support services, 
 ### What We Will Predict
 
 Our machine learning model aims to predict the demand for shelter beds and resources within Toronto's homeless support services. By analysing various factors such as weather conditions, social events, demographics, and historical occupancy rates, the model will forecast the expected need for temporary accommodation and support services. This prediction will enable better resource allocation and planning, allowing shelters to proactively address fluctuations in demand and optimise their operations.
+
+## Machine Learning Approach
+In our project, we have decided to consider a comprehensive machine learning approach by experimenting with a selection of different models. 
+
+This strategy involves designing and testing multiple models, including Long Short-Term Memory (LSTM) networks, Random Forest Regression, Facebook Prophet, and Seasonal Autoregressive Integrated Moving Average (SARIMA) models. By leveraging the comparative analysis, we will attempt to combine these models strategically, capitalizing on their individual advantages to enhance overall predictive accuracy. This approach allows us to tailor our solution to deliver the best possible performance in optimizing homeless shelter operations.
+
+We will be using Random Forest, Prophet and SARIMA as our baseline models. 
+
+### LSTM
+
+LSTM (Long Short-Term Memory) networks offer a powerful solution for time series forecasting tasks, particularly in predicting shelter occupancy rates. LSTMs excel in retaining relevant information over extended sequences through their memory cell state, allowing them to recognize seasonalities, trends, and other critical patterns. Furthermore, these networks demonstrate flexibility in handling varying sequence lengths, accommodating the diverse historical data available for each shelter. Robustness to noisy data and the capability to learn hierarchical representations further enhance their utility in forecasting tasks. In essence, LSTM networks present a sophisticated yet adaptable approach to shelter occupancy prediction, leveraging their strengths in temporal modeling to provide accurate and insightful forecasts.
+
+### Multi-Step Approach
+Another method we are trying is a model with multiple steps. This multi-tiered approach allows us to tackle the problem from a macro (city-wide) level and then drill down to micro factors influencing individual or grouped shelter demands. Our current implementation includes the following:
+1. SARIMA to predict city wide overall capacity each night
+2. Regression models trained to predict capacity based on different shelter features (postal code, sector, organization, etc)
+3. Use results of regression models to shift overall prediction for a specific shelter.

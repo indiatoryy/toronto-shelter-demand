@@ -19,21 +19,3 @@ By enhancing forecasting and resource allocation for homeless support services, 
 ### What We Will Predict
 
 Our machine learning model aims to predict the demand for shelter beds and resources within Toronto's homeless support services. By analysing various factors such as weather conditions, social events, demographics, and historical occupancy rates, the model will forecast the expected need for temporary accommodation and support services. This prediction will enable better resource allocation and planning, allowing shelters to proactively address fluctuations in demand and optimise their operations.
-
-## Data
-
-### Data Sets
-
-We currently plan on using the following datasets:
-
-* Daily Shelter Occupancy: https://open.toronto.ca/dataset/daily-shelter-overnight-service-occupancy-capacity/
-* Weather: https://climate.weather.gc.ca/historical_data/search_historic_data_e.html
-* Available low-cost housing: https://open.canada.ca/data/en/dataset/324befd1-893b-42e6-bece-6d30af3dd9f1
-* (un)employment rate: https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410029501
-
-Additional datasets we could consider include:
-
-* Mental health and mental health service availability: https://data.torontopolice.on.ca/datasets/79c8e950bfe54ce39334ba108e1b325f_0/explore
-* Economic Conditions: https://www.statcan.gc.ca/en/start
-* GDP: https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3610043402
-* Inflation: https://www.genengnews.com/

@@ -25,10 +25,10 @@ Due to these limitations, there was a clear need for a more robust forecasting a
 ## Approach and Methodology
 ### Datasets
 This project involved various datasets, including:
-* **Daily Shelter Occupancy:** https://open.toronto.ca/dataset/daily-shelter-overnight-service-occupancy-capacity/
-* **Weather:** https://climate.weather.gc.ca/historical_data/search_historic_data_e.html
-* **Available low-cost housing:** https://open.canada.ca/data/en/dataset/324befd1-893b-42e6-bece-6d30af3dd9f1
-* **Persons in Crisis Calls:** https://data.torontopolice.on.ca/datasets/79c8e950bfe54ce39334ba108e1b325f_0/explore
+* [Daily shelter occupancy](https://open.toronto.ca/dataset/daily-shelter-overnight-service-occupancy-capacity/)
+* [Weather](https://climate.weather.gc.ca/historical_data/search_historic_data_e.html)
+* [Available low-cost housing](https://open.canada.ca/data/en/dataset/324befd1-893b-42e6-bece-6d30af3dd9f1)
+* [Persons in crisis calls](https://data.torontopolice.on.ca/datasets/79c8e950bfe54ce39334ba108e1b325f_0/explore)
 
 ### Model Development
 The machine learning solution for forecasting homeless shelter demand in Toronto leverages a Long Short-Term Memory (LSTM) model, which is particularly suited for time series data due to its ability to remember information over extended periods. This characteristic is crucial in understanding and predicting patterns in shelter usage that are influenced by complex, dynamic factors.

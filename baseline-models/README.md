@@ -9,8 +9,8 @@ In this section, we outline the baseline models we used to evaluate the performa
 Autoregressive models predict future behavior based on past behavior by assuming that past data points are useful for predicting future values. These models are particularly useful in time series forecasting, where the next value in the series is predicted as a linear function of the previous values. AR models are often favored for their simplicity and effectiveness in cases where data shows significant continuity and stability over time.
 
 ### Results
-* **RMSE:**
-* **MAE:**
+* **RMSE:** 4.12
+* **MAE:** 16.96
 
 ## Random Forest Regression Model
 Random Forest Regression utilizes an ensemble learning method for regression tasks. It operates by constructing a multitude of decision trees at training time and outputting the mean prediction of the individual trees. RFR is highly effective for complex regression tasks because it can model nonlinear relationships and interactions between features without requiring extensive data preprocessing or linear assumptions.

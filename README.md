@@ -46,6 +46,11 @@ The Adjusted Geospatial Multivariate LSTM model significantly outperformed basel
   <img width="683" alt="Screenshot 2024-05-11 at 3 08 06 PM" src="https://github.com/indiatoryy/toronto-shelter-demand/assets/105636722/13578216-0a93-4236-8013-307e6811c8fe">
 </p>
 
+## User Interface
+<p align="center">
+  <img width="1435" alt="Screenshot 2024-04-24 at 6 38 38 PM" src="https://github.com/indiatoryy/toronto-shelter-demand/assets/105636722/39ad9a1b-648e-41af-9768-7ac281def0ee">
+</p>
+
 
 ## Future Work
 
